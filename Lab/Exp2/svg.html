@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Complex Shape using SVG</title>
+  </head>
+  <body>
+
+    <section class="scaled">
+      <svg width="1280" height="1000">
+        <rect x="0" y="0" width="1920" height="275" fill="#78ECF3" />
+        <defs>
+          <linearGradient id="grad" x1="0%" x1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:rgb(92,154,12); stop-opactiy=1" />
+            <stop offset="100%" style="stop-color:rgb(92,255,12); stop-opactiy=1" />
+          </linearGradient>
+        </defs>
+        <rect x="0" y="275" width="1920" height="270" fill="url(#grad)" />
+
+
+        <circle cx="600" cy="110" r="70" stroke-width="4" fill="#F0D800" />
+
+
+        <polygon fill="#FDF6BD" points="800,275 935,150 1060,275" />
+
+        <rect x="900" y="350" width="211" height="194" fill="#AE7C1B" />
+        <rect x="980" y="484" width="50" height="60" fill="#000" />
+
+        <polygon points="880,350 1005,245 1130,350" fill="#491F00" />
+        <polygon fill="#FDF6BD" points="50,275 200,150 360,275" />
+        <polygon fill="#FDF6BD" points="360,275 570,80 799,275" />
+
+        <rect x="300" y="380" width="30" height="165" fill="#AE7C1B" />
+        <circle cx="315" cy="380" r="70" stroke-width="4" fill="#1BD16F" />
+        <circle cx="315" cy="280" r="50" stroke-width="4" fill="#18C367" />
+
+        <polyline points="800,275 600,370 500,545"
+        style="fill:none;stroke:#3139F0;stroke-width:23" />
+      </svg>
+    </section>
+
+  </body>
+</html>
