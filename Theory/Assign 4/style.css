@@ -1,5 +1,5 @@
 .cool-border {
-    border: 10px solid blue;
+    border: 6px solid red;
     border-radius: 5px;
   }
 
@@ -19,4 +19,3 @@
   canvas{
     height: 100%;
   }
-  
