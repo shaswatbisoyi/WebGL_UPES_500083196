@@ -16,7 +16,7 @@ function init(){
     var vertices = [];
 
     var max = 1, min = -1;
-    for (var i=0, t=96; i<t; i++) {
+    for (var i=0, t=16; i<t; i++) {
         vertices.push(Math.random() * (max - min) + min)
     }
 
